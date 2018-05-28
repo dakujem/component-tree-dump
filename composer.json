@@ -1,0 +1,23 @@
+{
+	"name": "dakujem/component-tree-dump",
+	"description": "A tracy panel showing current Nette component model tree.",
+	"keywords": ["nette", "tracy"],
+	"license": ["BSD-2-Clause", "MIT", "GPL-3.0-or-later", "GPL-2.0-or-later"],
+	"authors": [
+		{
+			"name": "Andrej Rypák",
+			"email": "xrypak@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^7.0",
+		"nette/application": "^2.4",
+		"nette/component-model": "^2.4",
+		"tracy/tracy": "^2.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Dakujem\\Nette\\": "src/"
+		}
+	}
+}
