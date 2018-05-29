@@ -7,6 +7,8 @@ Displays components that get loaded during the page rendering.
 Useful in cases where the component structure is more complex
 or one simply wants to inspect if correct components get loaded.
 
+![Component model panel](doc/component-tree-panel.png "Component model tree Tracy panel")
+
 
 ## Usage
 
