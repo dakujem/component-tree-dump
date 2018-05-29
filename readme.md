@@ -45,7 +45,6 @@ $app->run();
 `$` `composer require dakujem/component-tree-dump`
 
 
-## Icon credits
+----
 
-> The icon used made by [Good Ware]( https://www.flaticon.com/authors/good-ware ) from [www.flaticon.com]( https://www.flaticon.com/ ).
-> Licensed by [CC 3.0 BY]( http://creativecommons.org/licenses/by/3.0/ ).
+> For icon credits, please see `icons/credits.md`.
