@@ -11,9 +11,9 @@
 	],
 	"require": {
 		"php": "^7.0",
-		"nette/application": "^2.4",
-		"nette/component-model": "^2.4",
-		"tracy/tracy": "^2.4"
+		"nette/application": "^2.2",
+		"nette/component-model": "^2.2",
+		"tracy/tracy": "^2.2"
 	},
 	"autoload": {
 		"psr-4": {
