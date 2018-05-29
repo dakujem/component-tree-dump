@@ -1,9 +1,11 @@
 
-# Component model tree dump for Nette
+# Component model tree panel & dumper for Nette
 
-A Tracy panel and general dumper for current component tree in Nette.
+A Tracy panel and general dumper for visualising components in the current component tree in Nette.
+Displays components that get loaded during the page rendering.
 
-Good for visualising components that get loaded during the page rendering.
+Useful in cases where the component structure is more complex
+or one simply wants to inspect if correct components get loaded.
 
 
 ## Usage
@@ -22,10 +24,26 @@ $container = require __DIR__ . '/../app/bootstrap.php';
 
 $app = $container->getService( 'application' );
 Dakujem\Nette\ComponentTreeDumper::registerPanel( $app );
-$app->run()
-;
+$app->run();
 ```
+
+>
+> Note:
+>
+> The panel only displays components that are loaded during the shutdown.
+> Components unloded before shutdown are not displayed in the panel.
+>
+> One can, however, use the dumper to display the component tree by
+> manually calling `ComponentTreeDumper::out` method at any time.
+>
+
 
 ## Installation
 
 `$` `composer require dakujem/component-tree-dump`
+
+
+## Icon credits
+
+> The icon used made by [Good Ware]( https://www.flaticon.com/authors/good-ware ) from [www.flaticon.com]( https://www.flaticon.com/ ).
+> Licensed by [CC 3.0 BY]( http://creativecommons.org/licenses/by/3.0/ ).
