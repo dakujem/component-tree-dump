@@ -11,8 +11,8 @@
 	],
 	"require": {
 		"php": "^7.0",
-		"nette/application": "^2.2",
-		"nette/component-model": "^2.2",
+		"nette/application": "^2.2 || ^3",
+		"nette/component-model": "^2.2 || ^3",
 		"tracy/tracy": "^2.2"
 	},
 	"autoload": {
