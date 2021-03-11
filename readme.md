@@ -24,7 +24,7 @@ or in `index.php`:
 ```php
 $container = require __DIR__ . '/../app/bootstrap.php';
 
-$app = $container->getService( 'application' );
+$app = $container->getService( Nette\Application\Application::class );
 Dakujem\Nette\ComponentTreeDumper::registerPanel( $app );
 $app->run();
 ```
